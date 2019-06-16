@@ -10,6 +10,9 @@
     "watch-node": "nodemon dist/server.js",
     "watch-ts": "tsc -w"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
