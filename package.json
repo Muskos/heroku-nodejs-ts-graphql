@@ -5,6 +5,7 @@
   "main": "dist/server.js",
   "scripts": {
     "build": "npm run serve",
+    "postinstall": "npm run build-ts",
     "build-ts": "tsc",
     "start": "npm run serve",
     "serve": "node dist/server.js",
